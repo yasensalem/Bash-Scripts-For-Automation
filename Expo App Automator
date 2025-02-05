@@ -7,13 +7,13 @@ echo "This wizard will create your Expo app 'crudler' using the blank template."
 echo "Step 1: Creating your Expo app."
 npx create-expo-app crudler --template blank
 
-# Step 2: Change directory to the newly created project.
-echo "Step 2: Changing directory to 'crudler'."
-cd crudler
-
-# Step 3: Log in to your Expo account.
+# Step 2: Log in to your Expo account.
 echo "Step 3: Please log in to Expo."
 npx expo login
+
+# Step 3: Change directory to the newly created project.
+echo "Step 2: Changing directory to 'crudler'."
+cd crudler
 
 # Step 4: Open the project in VS Code.
 echo "Step 4: Opening your project in VS Code."
